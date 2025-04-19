@@ -30,7 +30,7 @@ class PaymentService {
     }
 }
 
-public class StrategyPattern {
+public class WithStrategyPattern {
 
     public static void main(String[] args) {
 
