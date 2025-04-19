@@ -1,7 +1,7 @@
 package com.example.designpattern;
 
 
-import com.example.designpattern.StrategyPattern.StrategyPatternMain;
+import com.example.designpattern.CommandPattern.CommandPatternMain;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
@@ -11,9 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DesignPatternApplication {
 
     public static void main(String[] args) {
-//        ObserverPatternMain.main(args);
-        StrategyPatternMain.main(args);
-//        CommandPatternMain.main(args);
+
+        CommandPatternMain.main(args);
     }
 
 }
