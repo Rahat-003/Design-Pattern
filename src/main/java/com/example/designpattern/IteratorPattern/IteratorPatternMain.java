@@ -5,6 +5,6 @@ import com.example.designpattern.IteratorPattern.Without.WithoutIteratorPattern;
 
 public class IteratorPatternMain {
     public static void main(String[] args) {
-        WithoutIteratorPattern.main(args);
+        WithIteratorPattern.main(args);
     }
 }

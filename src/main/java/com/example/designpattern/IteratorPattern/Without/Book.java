@@ -1,6 +1,6 @@
 package com.example.designpattern.IteratorPattern.Without;
 
-public class Book {
+public class Book implements Comparable<Book>{
     private String title;
 
     public Book(String title) {
@@ -16,5 +16,10 @@ public class Book {
         return "Book{" +
                 "title='" + title + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        return this.title.compareTo(o.title);
     }
 }
