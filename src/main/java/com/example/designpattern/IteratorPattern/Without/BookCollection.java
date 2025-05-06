@@ -2,13 +2,15 @@ package com.example.designpattern.IteratorPattern.Without;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class BookCollection {
-    private List<Book> books = new ArrayList<>();
+    private Set<Book> books = new TreeSet<>();
     public void addBook(Book book){
         books.add(book);
     }
-    public List<Book> getBooks(){
+    public Set<Book> getBooks(){
         return books;
     }
 
