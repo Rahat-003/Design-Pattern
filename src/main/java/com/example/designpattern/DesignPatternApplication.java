@@ -1,6 +1,7 @@
 package com.example.designpattern;
 
 
+import com.example.designpattern.BuilderPattern.BuilderPatternMain;
 import com.example.designpattern.IteratorPattern.IteratorPatternMain;
 import com.example.designpattern.MediatorPattern.MediatorPatternMain;
 import com.example.designpattern.SingletonPattern.SingletonPatternMain;
@@ -20,7 +21,8 @@ public class DesignPatternApplication {
 //        IteratorPatternMain.main(args);
 //        StatePatternMain.main(args);
 //        MediatorPatternMain.main(args);
-        SingletonPatternMain.main(args);
+//        SingletonPatternMain.main(args);
+        BuilderPatternMain.main(args);
     }
 
 }
