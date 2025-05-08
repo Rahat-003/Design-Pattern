@@ -3,6 +3,7 @@ package com.example.designpattern;
 
 import com.example.designpattern.IteratorPattern.IteratorPatternMain;
 import com.example.designpattern.MediatorPattern.MediatorPatternMain;
+import com.example.designpattern.SingletonPattern.SingletonPatternMain;
 import com.example.designpattern.StatePattern.StatePatternMain;
 import com.example.designpattern.TemplateMethodPattern.TemplateMethodPatternMain;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +19,8 @@ public class DesignPatternApplication {
 //        TemplateMethodPatternMain.main(args);
 //        IteratorPatternMain.main(args);
 //        StatePatternMain.main(args);
-        MediatorPatternMain.main(args);
+//        MediatorPatternMain.main(args);
+        SingletonPatternMain.main(args);
     }
 
 }
