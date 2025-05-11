@@ -1,5 +1,6 @@
 package com.example.designpattern.AdapterPattern;
 
+import com.example.designpattern.AdapterPattern.With.WithAdapterPattern;
 import com.example.designpattern.AdapterPattern.Without.WithoutAdapterPattern;
 
 
@@ -36,6 +37,7 @@ import com.example.designpattern.AdapterPattern.Without.WithoutAdapterPattern;
 
 public class AdapterPatternMain {
     public static void main(String[] args) {
-        WithoutAdapterPattern.main(args);
+//        WithoutAdapterPattern.main(args);
+        WithAdapterPattern.main(args);
     }
 }
