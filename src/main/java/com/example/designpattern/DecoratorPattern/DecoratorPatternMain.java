@@ -1,5 +1,6 @@
 package com.example.designpattern.DecoratorPattern;
 
+import com.example.designpattern.DecoratorPattern.With.WithDecoratorPattern;
 import com.example.designpattern.DecoratorPattern.Without.WithoutDecoratorPattern;
 
 
@@ -33,6 +34,7 @@ import com.example.designpattern.DecoratorPattern.Without.WithoutDecoratorPatter
 
 public class DecoratorPatternMain {
     public static void main(String[] args) {
-        WithoutDecoratorPattern.main(args);
+//        WithoutDecoratorPattern.main(args);
+        WithDecoratorPattern.main(args);
     }
 }

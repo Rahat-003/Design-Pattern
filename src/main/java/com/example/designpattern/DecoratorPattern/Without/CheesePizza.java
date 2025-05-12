@@ -1,6 +1,6 @@
 package com.example.designpattern.DecoratorPattern.Without;
 
-import com.example.designpattern.DecoratorPattern.Pizza;
+import com.example.designpattern.DecoratorPattern.BasicPizza;
 
 public class CheesePizza extends BasicPizza {
     @Override
