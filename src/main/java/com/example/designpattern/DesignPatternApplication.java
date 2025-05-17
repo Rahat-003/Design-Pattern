@@ -4,6 +4,7 @@ package com.example.designpattern;
 import com.example.designpattern.AbstractFactoryPattern.AbstractFactoryPatternMain;
 import com.example.designpattern.AdapterPattern.AdapterPatternMain;
 import com.example.designpattern.BuilderPattern.BuilderPatternMain;
+import com.example.designpattern.CompositePattern.CompositePatternMain;
 import com.example.designpattern.DecoratorPattern.DecoratorPatternMain;
 import com.example.designpattern.FactoryPattern.FactoryPatternMain;
 import com.example.designpattern.IteratorPattern.IteratorPatternMain;
@@ -34,7 +35,8 @@ public class DesignPatternApplication {
 //        PrototypePatternMain.main(args);
 //        AdapterPatternMain.main(args);
 //        DecoratorPatternMain.main(args);
-        ProxyPatternMain.main(args);
+//        ProxyPatternMain.main(args);
+        CompositePatternMain.main(args);
     }
 
 }
