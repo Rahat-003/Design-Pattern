@@ -20,7 +20,7 @@ public class DesignPatternApplication {
 //        MediatorPatternMain.main(args);
 //        SingletonPatternMain.main(args);
 //        BuilderPatternMain.main(args);
-        FactoryPatternMain.main(args);
+//        FactoryPatternMain.main(args);
 //        AbstractFactoryPatternMain.main(args);
 //        PrototypePatternMain.main(args);
 //        AdapterPatternMain.main(args);

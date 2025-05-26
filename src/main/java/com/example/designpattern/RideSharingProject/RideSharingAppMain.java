@@ -1,8 +1,8 @@
 package com.example.designpattern.RideSharingProject;
 
 
-
-
+import com.example.designpattern.RideSharingProject.BadCodeExample.BadCodeMain;
+import com.example.designpattern.RideSharingProject.GoodCodeExample.GoodCodeMain;
 
 /**
  * <h1>RideSharingApplication Design Specification</h1>
@@ -55,7 +55,8 @@ public class RideSharingAppMain {
 
 
     public static void main(String[] args) {
-        System.out.println("------- Ride Sharing Application -------");
+//        BadCodeMain.main(args);
+        GoodCodeMain.main(args);
     }
 
 }
